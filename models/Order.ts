@@ -1,6 +1,6 @@
 import mongoose, { Schema, model, Document, Types } from 'mongoose';
 
-interface ILineItem{
+export interface ILineItem{
     description:string,
     quantity:number,
     unitPrice:number
