@@ -17,6 +17,6 @@ export async function GET(req:NextRequest,{ params }: { params: Promise<{ id: st
         }
         return NextResponse.json({ order }, { status: 200 })
     } catch (error) {
-        
+        return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
     }
 }

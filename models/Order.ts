@@ -6,7 +6,7 @@ export interface ILineItem{
     unitPrice:number
 }
 
-interface IOrder extends Document {
+export interface IOrder extends Document {
     userId: Types.ObjectId;
     customername: string;
     dueDate: Date;

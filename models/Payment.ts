@@ -1,6 +1,6 @@
 import mongoose, { Schema, model, Document, Types } from 'mongoose';
 
-interface IPayment{
+export interface IPayment{
     orderId:Types.ObjectId,
     userId:Types.ObjectId,
     amount:number,
