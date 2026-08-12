@@ -52,7 +52,7 @@ export default function LoginPage(){
                         </div>
                         <div>
                             <label className="block text-sm font-medium">Password</label>
-                            <input name="password" value={password} onChange={(e) => setPassword(e.target.value)} required className="mt-1 w-full rounded border p-2"/>
+                            <input name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required className="mt-1 w-full rounded border p-2"/>
                         </div>
                         <button type="submit" disabled={loading} className="w-full rounded bg-blue-600 py-2 text-white hover:bg-blue-700 disabled:opacity-50">Submit</button>
                         <p className="text-center text-sm"><Link href="/register">Don't have an account? Register here</Link></p>
