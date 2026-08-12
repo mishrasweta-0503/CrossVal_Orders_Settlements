@@ -41,4 +41,6 @@ A full-stack web application built with Next.js, React, and MongoDB for managing
     MONGODB_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret_key
    npm run dev
-   Open http://localhost:3000 in your browser. 
+   Open http://localhost:3000 in your browser.
+
+2. **Live URL : https://crossval-orders-settlements.onrender.com 
